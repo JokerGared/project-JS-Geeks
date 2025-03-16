@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/project-JS-Geeks/assets/favicon-BvABL4ig.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="module" crossorigin src="/project-JS-Geeks/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/project-JS-Geeks/assets/vendor-BvPA-ZqM.js">
+    <link rel="stylesheet" crossorigin href="/project-JS-Geeks/assets/vendor-B7goKWir.css">
+    <link rel="stylesheet" crossorigin href="/project-JS-Geeks/assets/index-C4y2t5Gv.css">
+  </head>
+
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <a class="header-logo" href="./index.html" aria-label="Go to homepage">
+      <img
+        class="logo-foto"
+        srcset="/project-JS-Geeks/assets/logo-foto-2x-KQ3A9gko.png 2x, /project-JS-Geeks/assets/logo-foto-1x-BhSlf_OH.png 1x"
+        alt="Jefferson photologo"
+        width="80"
+        height="80"
+        src="/project-JS-Geeks/assets/logo-foto-1x-BhSlf_OH.png"
+      />
+      <p class="logo-name">jefferson*</p>
+    </a>
+
+    <nav class="header-nav hidden">
+      <button
+        class="header-menu-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="nav-list"
+      >
+        Menu
+      </button>
+      <ul id="nav-list" class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="#about-me">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#benefits">Benefits</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#faq">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+    <a class="order-button" href="#work-together">Order the project</a>
+
+    <!------------- Mobile-MENU --------------->
+    <div class="mobile-menu">
+      <button
+        class="mobile-menu-button"
+        type="button"
+        aria-label="Open mobile menu"
+        data-menu-open
+      >
+        <svg class="mobile-menu-icon">
+          <use href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#menu"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="mobile-menu-container">
+      <button class="mobile-menu-close-button" aria-label="Close mobile menu">
+        <svg class="mobile-menu-close-icon" width="32" height="32">
+          <use href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#x"></use>
+        </svg>
+      </button>
+      <nav class="mobile-menu-nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#benefits">Benefits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="order-button-mobile-menu" href="#work-together"
+        >Order the project</a
+      >
+    </div>
+  </div>
+</header>
+
+
+    <main>
+      <section class="hero">
+  <div class="container">
+    <h1 class="main-title">HELLO.<br/>
+      I’M FULLSTACK DEVELOPER 
+      LLOYD JEFFERSON.</h1>
+ <ul class="social-list">
+      <li class="link-item"><a href="https://www.instagram.com/goitclub/" target="_blank">IG</a></li>
+      <li class="link-item"><a href="https://www.facebook.com/goITclub/" target="_blank">FB</a></li>
+      <li class="link-item"><a href="https://www.youtube.com/c/GoIT" target="_blank">YT</a></li>
+      <li class="link-item"><a href="https://github.com/zhonik/project-JS-Geeks#" target="_blank">GH</a></li>
+      <li class="link-item email"><a href="mailto:lloydjefferson@gmail.com" target="_blank">lloydjefferson@gmail.com</a></li>
+  </ul>
+  </div>
+</section>
+
+      <section class="about-me" id="about-me">
+  <div class="container about-me-container">
+    <div class="about-me-intro">
+      <div class="about-me-activity">
+        <h2 class="second-title visually-hidden">About Me</h2>
+        <p class="about-me-text">
+          I work with people all over the world to create impressive and
+          <span class="about-me-span-red">functional</span
+          ><span class="about-me-span-gray"> websites</span> that reflect each
+          client's unique personality.
+        </p>
+      </div>
+      <figure class="about-me-thumb">
+        <picture>
+          <source
+            srcset="/project-JS-Geeks/assets/aboutMe-desk-D4QSPDAp.jpg 1x, /project-JS-Geeks/assets/aboutMe-desk-2x-DEQzCanU.jpg 2x"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/project-JS-Geeks/assets/aboutMe-tab-BtnGCWJn.jpg 1x, /project-JS-Geeks/assets/aboutMe-tab-2x-DdrDTHP1.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/project-JS-Geeks/assets/aboutMe-mob-B_T_GH4R.jpg 1x, /project-JS-Geeks/assets/aboutMe-mob-2x-Cd81DIBX.jpg 2x"
+            media="(max-width: 767px)"
+          />
+          <img src="/project-JS-Geeks/assets/aboutMe-desk-D4QSPDAp.jpg" alt="man-in-glasses-with-laptop" />
+        </picture>
+      </figure>
+    </div>
+    <div class="about-me-accordion-part">
+      <ul class="about-me-list">
+        <li class="ac-about-me-item">
+          <h3 class="about-me-ac-header">
+            About me
+            <button class="about-me-ac-btn open" type="button">
+              <svg class="icon-arrow-down" width="20" height="20">
+                <use href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </h3>
+          <ul class="about-me-ac-panel open">
+            <li class="about-me-ac-text about-me-part">
+              I am Lloyd Jefferson, a talented programmer with extensive
+              expertise in software development. I have an understanding of
+              different programming languages and technologies, always ready to
+              improve my skills. I always follow the latest trends and look for
+              unconventional, creative solutions to problems. I have a high
+              level of analytical skills and am able to effectively solve even
+              the most difficult tasks encountered on the way.
+            </li>
+            <li class="about-me-ac-text">
+              Able to work both independently and in a team. I can effectively
+              cooperate with colleagues, exchanging ideas and finding optimal
+              solutions. Professional maturity allows you to calmly cope with
+              challenges and stressful situations, while maintaining a high
+              quality of work.I am always looking for opportunities for
+              self-improvement. I actively study new technologies and practices
+              to stay abreast of the latest innovations. I have a strong
+              understanding of various programming languages, frameworks and
+              architectural concepts that allow me to create efficient and
+              scalable software.
+            </li>
+          </ul>
+        </li>
+
+        <li class="ac-about-me-item">
+          <h3 class="about-me-ac-header">
+            Role
+            <button class="about-me-ac-btn" type="button">
+              <svg class="icon-arrow-down" width="20" height="20">
+                <use href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </h3>
+
+          <ul class="about-me-ac-panel">
+            <li class="about-me-ac-text">Frontend development</li>
+            <li class="about-me-ac-text">HeadlessCMS, Wordpress</li>
+            <li class="about-me-ac-text">Blender(enjoy)</li>
+          </ul>
+        </li>
+
+        <li class="ac-about-me-item">
+          <h3 class="about-me-ac-header">
+            Education
+            <button class="about-me-ac-btn" type="button">
+              <svg class="icon-arrow-down" width="20" height="20">
+                <use href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </h3>
+
+          <ul class="about-me-ac-panel">
+            <li class="about-me-ac-text">
+              2018 - 2019 / Frontend Development Diploma, GoIT IT School, New
+              York
+            </li>
+            <li class="about-me-ac-text">
+              2019 - 2020 / Advanced Web Development Certificate, GoIT IT
+              School, New York
+            </li>
+            <li class="about-me-ac-text">
+              2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="skills-part">
+      <div class="skills-swiper swiper">
+        <ul class="skills-list swiper-wrapper">
+          <li class="skills-item swiper-slide">HTML/CSS</li>
+          <li class="skills-item swiper-slide">JavaScript</li>
+          <li class="skills-item swiper-slide">React</li>
+          <li class="skills-item swiper-slide">Node.js</li>
+          <li class="skills-item swiper-slide">React Native</li>
+          <li class="skills-item swiper-slide">Soft skills</li>
+          <li class="skills-item swiper-slide">HTML/CSS</li>
+          <li class="skills-item swiper-slide">JavaScript</li>
+          <li class="skills-item swiper-slide">React</li>
+          <li class="skills-item swiper-slide">Node.js</li>
+          <li class="skills-item swiper-slide">React Native</li>
+          <li class="skills-item swiper-slide">Soft skills</li>
+        </ul>
+      </div>
+      <button class="skills-btn-next swiper-button-next" type="button">
+        <svg class="icon-btn-arrow" width="28" height="28">
+          <use href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#icon-arrow-narrow-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+      <section class="benefits" id="benefits">
+  <div class="container">
+    <div class="grid-container">
+      <h2 class="benefits-title">Benefits of working with me</h2>
+      <ul class="benefits-list">
+        <li class="benefits-item">
+          <div class="benefits-icon-frame">
+            <svg class="benefits-icon" width="24" height="24">
+              <use href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#user"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-subtitle">Expertise</h3>
+          <p class="benefits-text">
+            As a highly experienced developer, I have deep knowledge of
+            programming and website development.
+          </p>
+        </li>
+        <li class="benefits-item">
+          <div class="benefits-icon-frame">
+            <svg class="benefits-icon" width="24" height="24">
+              <use href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#message-chat"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-subtitle">Communication</h3>
+          <p class="benefits-text">
+            Understanding your needs and wants is my priority and I am always
+            open to discussions and corrections.
+          </p>
+        </li>
+        <li class="benefits-item">
+          <div class="benefits-icon-frame">
+            <svg class="benefits-icon" width="24" height="24">
+              <use href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#brush"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-subtitle">Art</h3>
+          <p class="benefits-text">
+            Thanks to my creative nature, I am ready to accept challenges and
+            help you bring your ideas to life.
+          </p>
+        </li>
+        <li class="benefits-item">
+          <div class="benefits-icon-frame">
+            <svg class="benefits-icon" width="24" height="24">
+              <use href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#hourglass"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-subtitle">Urgent execution</h3>
+          <p class="benefits-text">
+            I understand how important time is to you. Ready to work quickly and
+            efficiently, without reducing the quality of work.
+          </p>
+        </li>
+      </ul>
+      <a href="#work-together" class="cta-btn">Order the project</a>
+    </div>
+  </div>
+</section>
+
+      <section class="projects" id="projects">
+  <div class="container">
+    <h2 class="projects-title">Projects</h2>
+    <div class="projects-container swiper">
+      <ul class="projects-list swiper-wrapper">
+        <li class="project-item swiper-slide">
+          <div class="project-content">
+            <ul class="project-tags-list">
+              <li class="project-tags-item">#react</li>
+              <li class="project-tags-item">#js</li>
+              <li class="project-tags-item">#node js</li>
+              <li class="project-tags-item">#git</li>
+            </ul>
+            <h3 class="project-subtitle">
+              Programming Across Borders: Ideas, Technologies, Innovations
+            </h3>
+            <a
+              class="project-link"
+              href="https://github.com/zhonik/project-JS-Geeks"
+              target="_blank"
+              rel="noopener noreferrer"
+              >See project</a
+            >
+          </div>
+
+          <div class="project-image-container">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="/project-JS-Geeks/assets/prjct-tab-1-Ca06HKLC.jpg 1x, /project-JS-Geeks/assets/prjct-tab-1@2-Cuei4dmK.jpg 2x"
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="/project-JS-Geeks/assets/prjct-mob-1-DydcXB34.jpg 1x, /project-JS-Geeks/assets/prjct-mob-1@2-pWscgdfB.jpg 2x"
+              />
+              <img
+                src="/project-JS-Geeks/assets/prjct-tab-1-Ca06HKLC.jpg"
+                alt="Book search app"
+                width="614"
+              />
+            </picture>
+          </div>
+        </li>
+        <li class="project-item swiper-slide">
+          <div class="project-content">
+            <ul class="project-tags-list">
+              <li class="project-tags-item">#react</li>
+              <li class="project-tags-item">#js</li>
+              <li class="project-tags-item">#node js</li>
+              <li class="project-tags-item">#git</li>
+            </ul>
+            <h3 class="project-subtitle">
+              Programming Across Borders: Ideas, Technologies, Innovations
+            </h3>
+            <a
+              class="project-link"
+              href="https://github.com/zhonik/project-JS-Geeks"
+              target="_blank"
+              rel="noopener noreferrer"
+              >See project</a
+            >
+          </div>
+
+          <div class="project-image-container">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="/project-JS-Geeks/assets/prjct-tab-2-vB-GkxGG.jpg 1x, /project-JS-Geeks/assets/prjct-tab-2@2-D_Y2-CmW.jpg 2x"
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="/project-JS-Geeks/assets/prjct-mob-2-B9LdSn_l.jpg 1x, /project-JS-Geeks/assets/prjct-mob-2@2-ChNTa3k9.jpg 2x"
+              />
+              <img
+                src="/project-JS-Geeks/assets/prjct-tab-2-vB-GkxGG.jpg"
+                alt="Project petlove. A man and a woman hold a dog in their arms"
+                width="614"
+              />
+            </picture>
+          </div>
+        </li>
+        <li class="project-item swiper-slide">
+          <div class="project-content">
+            <ul class="project-tags-list">
+              <li class="project-tags-item">#react</li>
+              <li class="project-tags-item">#js</li>
+              <li class="project-tags-item">#node js</li>
+              <li class="project-tags-item">#git</li>
+            </ul>
+            <h3 class="project-subtitle">
+              Programming Across Borders: Ideas, Technologies, Innovations
+            </h3>
+            <a
+              class="project-link"
+              href="https://github.com/zhonik/project-JS-Geeks"
+              target="_blank"
+              rel="noopener noreferrer"
+              >See project</a
+            >
+          </div>
+
+          <div class="project-image-container">
+            <picture>
+              <source
+                media="(min-width: 768px)"
+                srcset="/project-JS-Geeks/assets/prjct-tab-3-CYAAzJA3.jpg 1x, /project-JS-Geeks/assets/prjct-tab-3@2-BvSny35j.jpg 2x"
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="/project-JS-Geeks/assets/prjct-mob-3-XeWWZFxj.jpg 1x, /project-JS-Geeks/assets/prjct-mob-3@2-DFOctxQq.jpg 2x"
+              />
+              <img
+                src="/project-JS-Geeks/assets/prjct-tab-3-CYAAzJA3.jpg"
+                alt="App VocabBuilder. Registration form"
+                width="614"
+              />
+            </picture>
+          </div>
+        </li>
+      </ul>
+
+      <div class="projects-btn-box">
+        <button class="projects-btn swiper-button-prev" type="button" disabled>
+          <svg class="projects-btn-arrow" width="24" height="24">
+            <use href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#icon-arrow-narrow-left"></use>
+          </svg>
+        </button>
+        <button class="projects-btn swiper-button-next" type="button">
+          <svg class="projects-btn-arrow" width="24" height="24">
+            <use href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#icon-arrow-narrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="faq" id="faq">
+  <div class="container">
+    <h2 class="faq-title">FAQ</h2>
+
+    <div class="faq-container">
+      <ul class="faq-list">
+        <li class="faq-item">
+          <div class="faq-header">
+            <p class="faq-question">
+              What programming languages ​​are most often used in your project?
+            </p>
+            <button class="toggle-btn">
+              <svg class="icon">
+                <use xlink:href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="faq-answer">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </div>
+        </li>
+        <li class="faq-item">
+          <div class="faq-header">
+            <p class="faq-question">What are the deadlines for the project?</p>
+            <button class="toggle-btn">
+              <svg class="icon">
+                <use xlink:href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="faq-answer">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </div>
+        </li>
+        <li class="faq-item">
+          <div class="faq-header">
+            <p class="faq-question">What payment methods do you accept?</p>
+            <button class="toggle-btn">
+              <svg class="icon">
+                <use xlink:href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="faq-answer">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </div>
+        </li>
+        <li class="faq-item">
+          <div class="faq-header">
+            <p class="faq-question">How can I contact you?</p>
+            <button class="toggle-btn">
+              <svg class="icon">
+                <use xlink:href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="faq-answer">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </div>
+        </li>
+        <li class="faq-item">
+          <div class="faq-header">
+            <p class="faq-question">Do you provide advice or support?</p>
+            <button class="toggle-btn">
+              <svg class="icon">
+                <use xlink:href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="faq-answer">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </div>
+        </li>
+        <li class="faq-item last-item">
+          <div class="faq-header">
+            <p class="faq-question">
+              What does the process of developing a software product look like
+              from idea to implementation?
+            </p>
+            <button class="toggle-btn">
+              <svg class="icon">
+                <use xlink:href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#icon-arrow-down"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="faq-answer">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section-covers container" id="covers">
+  <h2 class="visually-hidden">Covers</h2>
+  <ul class="covers-list">
+    <li class="cover-item">
+      <img
+        srcset="/project-JS-Geeks/assets/covers_1-DMoyi-D2.jpg 1x, /project-JS-Geeks/assets/covers_1@2x-BZys0wxR.jpg 2x"
+        alt="StarlightStudio"
+        class="covers-image"
+        src="/project-JS-Geeks/assets/covers_1-DMoyi-D2.jpg"
+      />
+    </li>
+    <li class="cover-item">
+      <img
+        srcset="/project-JS-Geeks/assets/covers_2-CvGs3UXO.jpg 1x, /project-JS-Geeks/assets/covers_2@2x-B8h6Zj8W.jpg 2x"
+        alt="Energy.flow"
+        class="covers-image"
+        src="/project-JS-Geeks/assets/covers_2-CvGs3UXO.jpg"
+      />
+      <img
+        srcset="/project-JS-Geeks/assets/covers_6-CmYPnjDc.jpg 1x, /project-JS-Geeks/assets/covers_6@2x-BQ3HSr_q.jpg 2x"
+        alt="Vichuvanka"
+        class="covers-image"
+        src="/project-JS-Geeks/assets/covers_6-CmYPnjDc.jpg"
+      />
+    </li>
+    <li class="cover-item">
+      <img
+        srcset="/project-JS-Geeks/assets/covers_4-I3yDYjmH.jpg 1x, /project-JS-Geeks/assets/covers_4@2x-_5Hld3O6.jpg 2x"
+        alt="Chego"
+        class="covers-image"
+        src="/project-JS-Geeks/assets/covers_4-I3yDYjmH.jpg"
+      />
+      <img
+        srcset="/project-JS-Geeks/assets/covers_5-BzXRQKgP.jpg 1x, /project-JS-Geeks/assets/covers_5@2x-C5w9a6yU.jpg 2x"
+        alt="Mimino"
+        class="covers-image"
+        src="/project-JS-Geeks/assets/covers_5-BzXRQKgP.jpg"
+      />
+      <img
+        srcset="/project-JS-Geeks/assets/covers_3-CYuGc2s2.jpg 1x, /project-JS-Geeks/assets/covers_3@2x-D52wXVXW.jpg 2x"
+        alt="Fruitbox"
+        class="covers-image"
+        src="/project-JS-Geeks/assets/covers_3-CYuGc2s2.jpg"
+      />
+    </li>
+    <li class="cover-item">
+      <img
+        srcset="/project-JS-Geeks/assets/covers_7-Dmwq3Lgw.jpg 1x, /project-JS-Geeks/assets/covers_7@2x-B1yuC7Uk.jpg 2x"
+        alt="Green"
+        class="covers-image"
+        src="/project-JS-Geeks/assets/covers_7-Dmwq3Lgw.jpg"
+      />
+      <img
+        srcset="/project-JS-Geeks/assets/covers_8-Bj9ELWn8.jpg 1x, /project-JS-Geeks/assets/covers_8@2x-B98Sodjg.jpg 2x"
+        alt="Power"
+        class="covers-image"
+        src="/project-JS-Geeks/assets/covers_8-Bj9ELWn8.jpg"
+      />
+      <img
+        srcset="/project-JS-Geeks/assets/covers_9-DY8UBBqh.jpg 1x, /project-JS-Geeks/assets/covers_9@2x-iYzN3IKs.jpg 2x"
+        alt="Wallet"
+        class="covers-image"
+        src="/project-JS-Geeks/assets/covers_9-DY8UBBqh.jpg"
+      />
+    </li>
+    <li class="cover-item">
+      <img
+        srcset="/project-JS-Geeks/assets/covers_10-C7rGMnZy.jpg 1x, /project-JS-Geeks/assets/covers_10@2x-D5f6wghm.jpg 2x"
+        alt="English"
+        class="covers-image"
+        src="/project-JS-Geeks/assets/covers_10-C7rGMnZy.jpg"
+      />
+    </li>
+  </ul>
+</section>
+
+      <section class="reviews">
+  <div class="container">
+    <h2 class="reviews-heading">Reviews</h2>
+    <div class="reviews-card-container swiper">
+      <ul class="reviews-card-list swiper-wrapper">
+        <li class="reviews-not-found visually-hidden">Not Found</li>
+      </ul>
+      <div class="reviews-btn-box">
+        <button
+          class="reviews-button swiper-button-prev"
+          type="button"
+          disabled
+        >
+          <svg class="reviews-button-arrow" width="24" height="24">
+            <use href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#icon-arrow-narrow-left"></use>
+          </svg>
+        </button>
+        <button
+          class="reviews-button swiper-button-next"
+          type="button"
+          disabled
+        >
+          <svg class="reviews-button-arrow" width="24" height="24">
+            <use href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#icon-arrow-narrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer work-together section" id="work-together">
+  <div class="container form-section-container">
+
+    <div class="portrait-title-together-container">
+      <div class="portrait-title-container">
+        <picture>
+          <source srcset="/project-JS-Geeks/assets/footer-tab-desk-portrait-Btb6nIrQ.png, /project-JS-Geeks/assets/footer-tab-desk-portrait@2x-CUrLfKL6.png 2x"
+            media="(min-width: 768px)">
+
+          <source srcset="data:image/png;base64,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 1x, /project-JS-Geeks/assets/footer-mob-portrait@2x-C-lHhJiw.png 2x"
+            media="(max-width: 767px)">
+
+          <img class="section-portrait" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAACxMAAAsTAQCanBgAAAL6UExURUdwTAACAwEBAQAAANzZ197a2QEDBNLOzs/Kxs/Kxc/KxM7KxtvX1wkSEszHxDBASM/Lxs/Pv87KxtrX1d/Pz93Z1dza293a2gAAAtza2gABASo0PAQKDDI7RBMZHiQwOQIEBhwlLe3o5gIDA/r286OhowAAAAAAAc/KxgABAgACBM7LxtzY2QEDBNrW1NrW1gEEBtDMyQMHCdzZ2tDLyNLMyN7a2tzY19vZ2wQICwgNENvX1s7KxtzW1tzX1tLNygIFB9rV1NjV1NHNytDNyAYLDs/Lx9vY2N3b29jT0t/b2tDMx9jU0tPPywkPEwwRFdbS0NXR0BAWGgULDNjS0dTQzN/CtQ8TGBMZHRYeJNPOy9bRzt3W1OLi492+sKJ/a/Tv7GxEMvr29NeojuHd2kcsHdXRzcCxqN7g4EUiEFY0IT8mHOPIvYNUPE4tIWE/LWc8KotsXNzAs5lwWt3FujwkGfLg1i8vMKqCbHxaSOC+q+zr6IxoVOPLwVc5K5hnT6t3Xo1aRbSBadnW1evm4ujm5RgRD3JHNbKPeoxjTNGwna2HcbGTgJJuWuTRyqVtUNq6qTcXDM+RdMmVeb6IafjazbFwVE01Lh4mLGllZeXg3hwcG+Lf3f79+4aAfbObi8qxoXlUQcSciItUO82kj7+jkrSglMRxWuPOxGE3JMe6soVfS56Fd5B2Z5SRjuPQyNCeiLyXgW5BK+S8qCsaFahyVmhRSLZ7Xd6slHE0IfLSwaumozc4Obq0sZOAd0VDQ97QyOTY08KomCIRC10uFtyzntWyocrCvuDKwMikkdbPygoGBcuplJ54YXtOOejFs59sUpldR6yQgnRNPuOegfK/q11bWtmXdsWNct+jidCdfoJhUnxBMbySeK56ZJBeRVsnHbJiTLu3tkxOUXl0coaGiP/36rqomuvVyP7Vvtno6t/EuaWPgMeijqtSM+PVz9aBZOS6o5gvEejX0P/n2ouJhuOymJtHOyEKCcV+X/vQrfoEADcAAQABAdUmYXcAAAAmdFJOUwBv7yC/cL8gb++Av4AQnyC/EN/fEO/v73+f339/cO9w77/fn79/7mqTZAAABmlJREFUOMtVlXd001YUxkXZlJbuPeiS/GRLlmXHsmxjy44tk9ixEzvLodlk7wQySEhIwiYh7LDaMErZe286oKWFFiijg9U96N7tOTqn94n2tH3nyH/93ufvfvfd9wji5rpn+IC7XYHkxMTEJFgpGRlOZ2yMx2TXaIbeMWQw8d81eIBNz7JsIABsYiHQhUnuBKfBALRWq9Fobv8PPvBewcHaAE5UlTuLLTFFfRtG+5x+v0mjke127dAh/7DDdYJDcGE4LpAY15m5oauxMXtj7sqvl3fKJo2s1dpBfdjfuhaLIDhGsawrEAjEFb7xYktN6+bsms3Z3aV9mUngWqsuVXvw/WasDMIudyDOdyy77IPec2taurY3tXSXrC9yg6wWbxiKfT9o0Rl1gmAD2h0Y/XJVWdmuynN9TXs2ZTetLKia+5pBhiK14PtWENZZjEajT8DSnYHl017ZNb6gakb3xlnTT8+a0dpaVpAJNWJpu/ZOYqDRYgFecDggvOV9BeMrxzc17p60/Ur3qdMzcscXlBTFynaNVoY6hxEDLBajRecD16yeLe4qrcptWTnzhTnbts+sm9FeXVow9/MknB8kCD7u86k01IjhNRsrp2WvaPxp6438+WcqKnaUFpRscpswDE7uIsxGi9Gng/DAtH50Ud20usbpJ9fNzsqfv+hsW0V16fqiBI9JA3GDFcIMurABKtTrWduY7LpZ35xclXXsxoTj7+7uWf3WWzWZTr+M26ixa1UYSgRlASrMnDV91cw5J0/Mnpg64Yd5k/a2XSvqdKpdhw0awmw2G6ErPocNYKF4+slTM8etm70V4J3zr3ZMatuQmOGM9fhxiaBsNsbr1DR8PtZWvOLlNSvqf15Yv/DXjkln2turqzblNccmyB6DSdbYsXK82ahzgDRr841be2nlnqNcw8Xe3Mq5raWVU8u2hBriEmIMHixO6IDWCZAcPtHFa7et/aG8vn5be9nV3+f+2fDmrnfGPndxMhxtv0eWVc8QMmZxv2O+/3HVS+VbJy6smX/53QO5VdNabGN/cQHswUUSOp3RB82GcwTKrq/Ofzvvu9cnbl34waV5F/a8/Ufv2ebnU2DEYMIMYMN488xhlHWznWMuvPd6Vvm6rH01Nb3vHTif27rltUBGrEqDDQGkBXUC4Ti73T5234ms2vLa8gMfLupYVL2/pzklJcHpdHo8MI8E7obKut0wKG7W99K42qwb5RPz9+5bUHFtR1smuMjABcIJUWGHOtmBuGQYQvORL2pTU+fU5r9/pX3/9equ0QDHOv0Gv0lWlX16df7ikoEO5C37rLY2NWvOzo71H/52fccbidhEjAcLawm9XmXBcCAOVvIUbln921m1qRM68vOr2yqaxyRkGAyxfpMKs6xej+cv4HIF4Ep67lBIIo98eXxCfs+CBSUVuVMKE3D3wMRNeJRtlM0Gn+BYmpNzNJwmWqmpdfMW9Ly/6PLqpimFGQYsa5JhCAlWP8rhEMbGx+flFW5ZksZEw0ExwpGVq3v27i559UUhJdYJDqDXMla2OWx57MHDH30skkiK8qH0YDDC82jqq/tLXtncPCbFCX22ww0Jtw3YWDqlgSSRwokSZ7WGmfSQ1ctznEIqZENS3tKEGL/s12qgf1pQjo/nQt4QH7IihmGkdFoMBkWe50iSpBly2SfP5kweW2jy427LhCsvnB4Khry8yDNIUkQrafVGIhyDEIlokiLJqYeWHMxJjoEqtcSTn3rDwXCaV1SCFKZDYEYUORohpCAEMF5vHp6siZGHEk+nR6Ph9DSQ5kSGYkgxiHgvwDSgDMAU5hH5fI5suoN4JhSNpi32pllFRaSAoHkvKXoljqMVjsPqNGJIEFmSYxpC3LY4Go4GF0tWUUIKSFOclaZ5CE+hIW6apjlGUhisPRnu3CfSwYYYpiM0CTCiGEkkIQ5RYaw0hWiG43iSp2iJvB3u5xGPpYfTgpLI0IjkIALERBSGF0WF8yIKIYkRRcRD5bf0x1f/o+FQMM3K0FAHJIvANU9JvFeRIhQJ+XB8UOFBuN/NR+XhSNAblWgK0ySNaA5LWxEvUoihJZrD7UIP/PNcPT7SGglCezEMNhhRovgQ/EIBjApTI/v9+xCOeEr0KjhP7JlWfVgZnoZ4GAlxQTSo///e2P79Bt1CkhSCRBDD8QxjlST4IwjjoUGP3PY39Bco0FnlKzu1PgAAAABJRU5ErkJggg==" alt="A portrait">
+        </picture>
+
+        <h2 class="form-title">Let's <span class="red">work</span></h2>
+      </div>
+      <span class="form-title">together</span>
+    </div>
+
+    <form class="form js-form">
+      <div class="input-message-container">
+        <div class="inputs-container">
+          <div class="email-input-container">
+            <input class="form-input email js-email" type="email" name="user-email" placeholder="clients@gmail.com"
+              pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$">
+
+            <p class="success-message fade-out js-success-message">Success!</p>
+            <p class="error-message fade-out js-error-messasge">Invalid email, please try again</p>
+          </div>
+
+          <input class="form-input comment js-comment" type="text" name="user-comment" placeholder="comments">
+        </div>
+
+      </div>
+      <button class="form-button" type="submit" aria-label="Send form">Send</button>
+    </form>
+
+    <address class="address">
+      <ul class="address-list">
+        <li class="address-item">
+          <a class="address-link" href="mailto:lloydjefferson@gmail.com">lloydjefferson@gmail.com</a>
+        </li>
+        <li class="address-item">
+          <a class="address-link" href="tel:+3801111111111">+380 11 1111 11 11</a>
+        </li>
+      </ul>
+    </address>
+  </div>
+</footer>
+    <div class="modal-backdrop js-modal-backdrop">
+    <div class="modal-window js-modal-window"></div>
+</div>
+    <button id="scrollToTop" class="scroll-to-top">
+  <svg class="icon">
+    <use xlink:href="/project-JS-Geeks/assets/sprite-YpCbxH-A.svg#icon-arrow-narrow-left"></use>
+  </svg>
+</button>
+
+
+  </body>
+</html>
